@@ -1,0 +1,9 @@
+时间：2016.07.28
+这是一个模拟饭否登录的python脚本
+包括登录和网页截取两块内容
+代码写的特别简单，希望有人能来fork和star
+
+依赖有：
+requests
+BeautifulSoup
+termcolor
