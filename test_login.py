@@ -53,7 +53,7 @@ token = BeautifulSoup(r.content, "lxml").find('input', attrs={'name':'token'})['
 urlfrom = BeautifulSoup(r.content, "lxml").find('input', attrs={'name':'urlfrom'})['value']
 login_data = {
     'loginname':'*******@******',        #填写你的用户名
-    'loginpass':'jyh19891212',           #填写你的密码
+    'loginpass':'',           #填写你的密码
     'action':action,
     'token':token,
     'urlfrom':urlfrom
